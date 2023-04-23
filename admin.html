@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <style>
+        *{
+            background-color: antiquewhite;
+        }
+        h1{
+            font-size: xx-large;
+            font-weight: 500;
+            color: rgb(4, 4, 4);
+
+        }
+        .section{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        table{
+            table-layout: auto;
+            border-collapse: collapse;
+            width: 300px;
+            height: 80px;
+        }
+        .row{
+            color: rgb(227, 66, 66);
+            text-align: center;
+            align-self: center;
+        }
+    </style>
+</head>
+<body ononline="admin()">
+    <section class="section">
+        <div><h1>Registered Usernames</h1></div>
+        <div class="div" id="div">
+            
+        </div>
+        <input type="button" id="btn" value="GetUserNames" onclick="admin()">
+    </section>
+    <script src="login.js"></script>
+    
+</body>
+</html>
