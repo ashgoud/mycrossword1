@@ -86,7 +86,7 @@ var emailArray=["abc@gmail.com","qwe@gmail.com","ashish@gmail.com","ram@gmail.co
             var password = document.getElementById("sp").value;
 
             var i = emailArray.indexOf(email);
-             if(email=='admin'&&password=='admin123'){
+             if(email=='admin@gmail.com'&&password=='admin123'){
                 window.location.href="admin.html";
             }
             else if(emailArray.indexOf(email) == -1){
